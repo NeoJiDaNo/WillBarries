@@ -9,7 +9,7 @@
     display: flex;
     justify-content: space-between;
     max-width: 1366px;
-    width: 100%;
+    width: ;
     padding: 0;
     margin: 25px auto;
 }
@@ -20,7 +20,7 @@ a {
     font-size: 14px;
 }
 
-a:hover {
+header a:hover {
     transform:  rotate(0.5turn);
 }
 
@@ -52,36 +52,32 @@ a:hover {
     background-position: left 20px center;
 }
 
-.chel {
-    margin-left: 416px;
-    margin-right: 15px;
-}
-
 .sex {
     background-color: #B4D1E0;
     background-image: url(../img/chel.png);
     background-repeat: no-repeat;
     background-position: left 416px center;
+    padding-top: 95px;
+    padding-bottom: 120px;
 }
 
 .best {
-    margin: 95px 1088.5px 460px 224.5px;
     background-color: #3DC47E;
     color: white;
     padding: 5px 12px;
-    margin: 95px 1088.5px 12.5px 224.5px;
+    font-size: 12px;
+    margin: 95px 1088px 25px 224px;
 }
 
 .sweat {
+    color: #262D33;
+    max-width: 458px;
+    max-height: 140px;
     font-family: Roboto Slab;
     font-style: normal;
     font-weight: bold;
     font-size: 55px;
-    line-height: 70px;
-    width: 350px;
-    height: 140px;
-    color: #262D33;
-    margin: 12.5px 698px 7.5px 210px;
+    margin: 25px 698px 15px 210px;
 }
 
 .txt {
@@ -89,8 +85,26 @@ a:hover {
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    line-height: 30px;
     color: #4B5157;
-    width: 300px;
-    height: 140px;
+    max-width: 335px;
+    max-height: 90px;
+    margin: 15px 819px 50px 212px;
+}
+
+.btn-shop {
+    background: #4592FF;
+    border-radius: 20px;
+    color: white;
+    padding: 10px 25px;
+    margin: 50px 1000px 120px 210px;
+}
+
+.left {
+    content: "";
+    position: absolute;
+    background-image: url(../img/left-kryg.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    width: 120px;
+    height: 60px;
 }
