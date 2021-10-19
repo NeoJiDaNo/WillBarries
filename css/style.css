@@ -3,6 +3,11 @@
     padding: 0;
     font-family: 'Lato', sans-serif;
     font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
 }
 
 .container {
@@ -24,7 +29,7 @@
     position: absolute;
 }
 
-a {
+header a {
     text-decoration: none;
     color: #939699;
     font-size: 14px;
@@ -153,12 +158,16 @@ main {
     margin-bottom: 30px;
 }
 
+.items-2 {
+    margin-bottom: 60px;
+}
+
 .block-items-small {
     max-width: 272px;
     max-height: 370px;
     min-height: 369px;
     width: 100%;
-    margin: auto;
+    
 }
 
 .block-items {
@@ -166,7 +175,7 @@ main {
     max-height: 370px;
     min-height: 369px;
     width: 100%;
-    margin: auto;
+    
 }
 
 .block-items-big {
@@ -183,6 +192,7 @@ main {
     background-image: url(../img/item/symka.png);
     background-repeat: no-repeat;
     border-radius: 10px;
+    margin-left: 104px;
 }
 
 .txt-symka {
@@ -230,6 +240,7 @@ main {
     background-image: url(../img/item/ked.png);
     background-repeat: no-repeat;
     border-radius: 10px;
+    margin-right: 104px;
 }
 
 .ked h3 {
@@ -280,6 +291,11 @@ main {
     background-repeat: no-repeat;
     border-radius: 10px;
     background-color: #CCD5E6;
+    margin-left: 104px;
+}
+
+.best-pop {
+    margin: 35px 734px 0px 48px;
 }
 
 .poplin h3 {
@@ -291,6 +307,7 @@ main {
     color: #262D33;
     width: 400px;
     height: 100px;
+    margin: 90px 395px 0px 45px;
 }
 
 .poplin p {
@@ -302,8 +319,214 @@ main {
     color: #4B5157;
     width: 319px;
     height: 20px;
+    margin: 20px 494px 0px 45px;
+}
+
+.btn-poplin {
+    background: #4592FF;
+    border-radius: 20px;
+    color: white;
+    padding: 10px 25px 10px 25px;
+    margin: 50px 0px 0px 45px;
+    position: absolute;
+}
+
+.img-pop1 {
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    margin: 39px 37px 0px 765px;
+    background-color: white;
+    border-top: 4px solid white;
+    border: 2px solid white;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.img-pop2 {
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    margin: 95px 37px 0px 765px;
+    border: 2px solid white;
+    background-color: #CCD5E6;
+}
+
+.img-pop3 {
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    margin: 153px 37px 0px 765px;
+    border: 2px solid white;
+    border-radius: 0px 0px 5px 5px;
+    background-color: #CCD5E6;
 }
 
 /* ~~~~~~~~~~ poplin ~~~~~~~~~~ */
 
+/* ~~~~~~~~~~ women ~~~~~~~~~~ */
+
+.women {
+    background-color: #FF4F52;
+    background-image: url(../img/item/women.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-right: 104px;
+}
+
+.women h3 {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    color: white;
+    width: 209px;
+    height: 60px;
+    margin: 35px 36px 0px 25px;
+}
+
+.women p {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    width: 209px;
+    height: 20px;
+    color: #FFC4C9;
+    margin: 10px 35px 0px 25px;
+}
+
+.txt-women {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 20px;
+    color: white;
+    width: 34px;
+    height: 20px;
+    margin: 15px 212px 0px 25px;
+}
+
+/* ~~~~~~~~~~ women ~~~~~~~~~~ */
+
 /* ~~~~~~~~~~ main ~~~~~~~~~~ */
+
+/* ~~~~~~~~~~ section ~~~~~~~~~~ */
+
+.tool-head {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1158px;
+    margin-bottom: 30px;
+}
+
+.tool-head h3 {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    color: #262D33;
+    width: 300px;
+    height: 30px;
+}
+
+.view {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 20px;
+    color: #262D33;
+    width: 52px;
+    height: 20px;
+}
+
+.block-tool {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 263px;
+    max-height: 370px;
+    min-height: 369px;
+    width: 100%;
+}
+
+.mr {
+    margin-bottom: 40px;
+}
+
+.new {
+    margin: 0px 207px 332px 30px;
+}
+
+/* ~~~~~~~~~~ tools ~~~~~~~~~~ */
+
+.hoodie {
+    background-image: url(../img/tools/hoodie.png);
+    width: 190px;
+    height: 190px;
+    background-repeat: no-repeat;
+}
+
+.block-tool h5 {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    color: #262D33;
+    width: 213px;
+    height: 25px;
+    align-items: center;
+    text-align: center;
+}
+
+.txt-hood {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4B5157;
+    width: 213px;
+    height: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.dol-hood {
+    font-family: Lato;
+    font-size: 18px;
+    line-height: 30px;
+    color: #262D33;
+    width: 32px;
+    height: 30px;
+    margin: 20px 115px 35px 115px;
+}
+
+/* ~~~~~~~~~~ tools ~~~~~~~~~~ */
+
+/* ~~~~~~~~~~ section ~~~~~~~~~~ */
+
+/* ~~~~~~~~~~ footer ~~~~~~~~~~ */
+
+footer {
+    background-color: #8F79D4;
+}
+
+.foot-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.white {
+    color: white;
+}
+
+/* ~~~~~~~~~~ footer ~~~~~~~~~~ */
