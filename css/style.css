@@ -9,15 +9,29 @@
     display: flex;
     justify-content: space-between;
     max-width: 1366px;
-    width: ;
     padding: 0;
-    margin: 25px auto;
+    margin: auto;
+}
+
+.green {
+    background: #3DC47E;
+    border-radius: 3px;
+    padding: 5px 12px;
+    color: white;
+    font-family: Lato;
+    font-size: 12px;
+    line-height: 15px;
+    position: absolute;
 }
 
 a {
     text-decoration: none;
     color: #939699;
     font-size: 14px;
+}
+
+header {
+    margin: 25px 0px;
 }
 
 header a:hover {
@@ -31,10 +45,6 @@ header a:hover {
     max-width: 600px;
     width: 100%;
     justify-content: space-between;
-}
-
-.nav-m {
-    
 }
 
 .btn {
@@ -52,6 +62,14 @@ header a:hover {
     background-position: left 20px center;
 }
 
+/* ~~~~~~~~~~ header ~~~~~~~~~~ */
+
+/* ~~~~~~~~~~ section ~~~~~~~~~~ */
+
+.fuck {
+    width: 100%;
+}
+
 .sex {
     background-color: #B4D1E0;
     background-image: url(../img/chel.png);
@@ -65,6 +83,7 @@ header a:hover {
     background-color: #3DC47E;
     color: white;
     padding: 5px 12px;
+    border-radius: 2px;
     font-size: 12px;
     margin: 95px 1088px 25px 224px;
 }
@@ -105,6 +124,186 @@ header a:hover {
     background-image: url(../img/left-kryg.svg);
     background-repeat: no-repeat;
     background-position: left center;
-    width: 120px;
+    width: 60px;
     height: 60px;
+    margin: 150px 0px 135px 107px;
+    opacity: 0.5;
 }
+
+.right {
+    content: "";
+    position: absolute;
+    background-image: url(../img/right-kryg.svg);
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+    margin: 150px 0px 135px 1200px;
+    opacity: 0.5;
+}
+
+/* ~~~~~~~~~~ section ~~~~~~~~~~ */
+
+/* ~~~~~~~~~~ main ~~~~~~~~~~ */
+
+main {
+    margin: 50px 0px 0px 0px;
+}
+
+.items-1 {
+    margin-bottom: 30px;
+}
+
+.block-items-small {
+    max-width: 272px;
+    max-height: 370px;
+    min-height: 369px;
+    width: 100%;
+    margin: auto;
+}
+
+.block-items {
+    max-width: 563px;
+    max-height: 370px;
+    min-height: 369px;
+    width: 100%;
+    margin: auto;
+}
+
+.block-items-big {
+    max-width: 860px;
+    max-height: 370px;
+    min-height: 369px;
+    width: 100%;
+    margin: auto;
+}
+
+/* ~~~~~~~~~~ symka ~~~~~~~~~~ */
+
+.symka {
+    background-image: url(../img/item/symka.png);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.txt-symka {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    color: #262D33;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 221px;
+    height: 90px;
+    margin: 60px 0px 0px 45px;
+}
+
+.symka p {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4B5157;
+    width: 175px;
+    height: 60px;
+    margin: 15px 0px 0px 45px;
+}
+
+.symka a {
+    background: #4592FF;
+    border-radius: 20px;
+    color: white;
+    padding: 10px 45px 10px 20px;
+    background-image: url(../img/item/Arrow.svg);
+    background-position: right 15px center;
+    background-repeat: no-repeat;
+    margin: 35px 0px 0px 45px;
+    position: absolute;
+}
+
+/* ~~~~~~~~~~ symka ~~~~~~~~~~ */
+
+/* ~~~~~~~~~~ ked ~~~~~~~~~~ */
+
+.ked {
+    background-image: url(../img/item/ked.png);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.ked h3 {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    color: white;
+    width: 252px;
+    height: 90px;
+    margin: 60px 0px 0px 45px;
+}
+
+.ked p {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.85;
+    width: 176px;
+    height: 60px;
+    margin: 15px 0px 0px 45px;
+}
+
+.ked a {
+    background: #4592FF;
+    border-radius: 20px;
+    color: white;
+    padding: 10px 45px 10px 20px;
+    background-image: url(../img/item/Arrow.svg);
+    background-position: right 15px center;
+    background-repeat: no-repeat;
+    margin: 35px 0px 0px 45px;
+    position: absolute;
+}
+
+/* ~~~~~~~~~~ ked ~~~~~~~~~~ */
+
+/* ~~~~~~~~~~ poplin ~~~~~~~~~~ */
+
+.poplin {
+    background-image: url(../img/item/poplin.png);
+    background-position: right 60px center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    background-color: #CCD5E6;
+}
+
+.poplin h3 {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
+    color: #262D33;
+    width: 400px;
+    height: 100px;
+}
+
+.poplin p {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4B5157;
+    width: 319px;
+    height: 20px;
+}
+
+/* ~~~~~~~~~~ poplin ~~~~~~~~~~ */
+
+/* ~~~~~~~~~~ main ~~~~~~~~~~ */
